@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle.css">
+    <title>GabeYanes</title>
+</head>
+
+<body>
+    <header class="header2">
+        <h2>Yanes</h2>
+        <div class="menu-icon">
+            <a href="#" class="menu-link-icon">
+                <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-align-justify">
+                    <line x1="21" y1="10" x2="3" y2="10"></line>
+                    <line x1="21" y1="6" x2="3" y2="6"></line>
+                    <line x1="21" y1="14" x2="3" y2="14"></line>
+                    <line x1="21" y1="18" x2="3" y2="18"></line>
+                </svg>
+            </a>
+            <label class="toggle">
+                <input type="checkbox" onclick="toggleDarkLight ()" />
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <div class="mobilemenu">
+        <ul>
+            <li><a href="#sec1" class="lista-link">Home</a></li>
+            <li><a href="#sec2" class="lista-link">About</a></li>
+            <li><a href="#sec3" class="lista-link">Skill</a></li>
+            <li><a href="#sec4" class="lista-link">Portfolio</a></li>
+        </ul>
+    </div>
+    <header>
+        <nav>
+            <h2>Yanes</h2>
+            <ul>
+                <li><a href="#sec1" class="lista-link">Home</a></li>
+                <li><a href="#sec2" class="lista-link">About</a></li>
+                <li><a href="#sec3" class="lista-link">Skill</a></li>
+                <li><a href="#sec4" class="lista-link">Portfolio</a></li>
+            </ul>
+            <label class="toggle">
+                <input type="checkbox" onclick="toggleDarkLight ()" />
+                <span class="slider round"></span>
+            </label>
+        </nav>
+    </header>
+    <main>
+        <section id="sec1">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/gabriel-yanes-br013/" target="_blank" class="link-icons">
+                    <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://github.com/GabeYanes1217" target="_blank" class="link-icons">
+                    <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-github">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="mailto:gabriel.yanes1217@outlook.com" target="_blank" class="link-icons">
+                    <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-mail">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+            <div class="home">
+                <h1>Hello World, I'm Yanes</h1>
+                <p>I am a university student passionate about front-end, with skills akin to a UX Designer and a
+                    love-hate relationship with Figma. My goal is to become an excellent front-end developer, while also
+                    aspiring to acquire knowledge in other technologies and concepts, such as SOLID and Clean
+                    Architecture.</p>
+                <a href="#sec2" class="link-icon-ancora">
+                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-arrow-down-circle">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="8 12 12 16 16 12"></polyline>
+                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                    </svg>
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+            <img src="imagens/Foto Ai.png" alt="">
+        </section>
+        <section id="sec2">
+            <h2>About Me</h2>
+            <h3>My Introduction</h3>
+            <div class="sobre">
+                <div class="texto-sobre-p">
+                    <p>University student aiming to become a professional Front-End Developer with UX Designer skills. I
+                        highlight my organization and patience in project planning, focusing on optimizing the user
+                        journey. My abilities include creating functional prototypes aligned with specifications. I have
+                        an affinity for understanding demands, patience, and a quick adaptation to new practices.</p>
+                </div>
+                <div class="conteudo">
+                    <div class="informacoes">
+                        <span class="texto-sobre"><strong>+ 1 ano</strong>UX Designer</span>
+                        <span class="texto-sobre"><strong>+ 1 ano</strong>Desenvolvimento Front-End</span>
+                        <span class="texto-sobre"><strong>+ 3 meses</strong>Freelancer Figma</span>
+                    </div>
+                    <a class="bnt1" href="arquivopdf/CV-PT2.0.pdf" download="CV-PT2.0.pdf">
+                        <button class="bnt1" type="button">Baixar CV <svg class="link-icons"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-download">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec3">
+            <div class="skills">
+                <h2>Skills</h2>
+                <h3>My technical level</h3>
+            </div>
+            <div class="skill01">
+                <div class="junta">
+                    <div class="tituloskill"><svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <div class="subtituloskill">
+                        <span class="texto-sobre2"><strong>Developer</strong>Begginer</span>
+                    </div>
+                </div>
+                <a href="#" class="link-icon-ancora-skill">
+                    <svg class="arrow-icon-skill rotacionar" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-arrow-down-circle">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="8 12 12 16 16 12"></polyline>
+                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="habilidades">
+                <div class="habilidadebox">
+                    <div class="habilidade01">
+                        <h4>HTML & CSS</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>JavaScript</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>PHP</h4><span>Begginer</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>C#</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>SQL</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>Python</h4><span>Begginer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill01">
+                <div class="junta">
+                    <div class="tituloskill"><svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-figma">
+                            <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path>
+                            <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
+                            <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path>
+                            <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
+                            <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
+                        </svg>
+                    </div>
+                    <div class="subtituloskill">
+                        <span class="texto-sobre2"><strong>UX Designer</strong>Begginer/Intermediate</span>
+                    </div>
+                </div>
+                <a href="#" class="link-icon-ancora-skill2">
+                    <svg class="arrow-icon-skill2 rotacionar" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-arrow-down-circle">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="8 12 12 16 16 12"></polyline>
+                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="habilidades02">
+                <div class="habilidadebox">
+                    <div class="habilidade01">
+                        <h4>Figma</h4><span>Solid</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>Adobe Illustrator</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>Adobe Photoshop</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>Lottie Files</h4><span>Begginer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill01">
+                <div class="junta">
+                    <div class="tituloskill"><svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                        </svg>
+                    </div>
+                    <div class="subtituloskill">
+                        <span class="texto-sobre2"><strong>Frameworks</strong>Begginer</span>
+                    </div>
+                </div>
+                <a href="#" class="link-icon-ancora-skill3">
+                    <svg class="arrow-icon-skill3 rotacionar" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-arrow-down-circle">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="8 12 12 16 16 12"></polyline>
+                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="habilidades03">
+                <div class="habilidadebox">
+                    <div class="habilidade01">
+                        <h4>Bootstrap</h4><span>Basic</span>
+                    </div>
+                    <div class="habilidade01">
+                        <h4>React</h4><span>Begginer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec4">
+            <div class="skills">
+                <h2>Portfolio</h2>
+                <h3>Latest work</h3>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="p1"><img src="imagens/Página inicial - LOGADA.png" alt="">
+                        </div>
+                        <div class="p2">
+                            <h3>AluraBooks</h3>
+                            <p>The Alura Books project is a sales page by Alura focused on technology teaching books.
+                            </p>
+                            <a href="https://alurabooks-ten-navy.vercel.app/" target="_blank"><button class="bnt1">View
+                                    <svg class="link-icon-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-external-link">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg></button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p101"><img src="imagens/iPhone 14 & 15 Pro Max - 5.png" alt="">
+                        </div>
+                        <div class="p2">
+                            <h3>DearPet</h3>
+                            <p>The DearPet app is a community focused on meeting the needs of the pet market, providing
+                                a catalog of the best prices from top stores for the products you need.
+                            </p>
+                            <a class="bnt1"
+                                href="https://www.figma.com/file/cwivcUT3jG4QsZjqwGTf4Z/DearPet?type=design&node-id=2%3A3&mode=design&t=CfzSfAVKlyOW2cnn-1"
+                                target="_blank"><button class="bnt1">View <svg class="link-icon-2"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-external-link">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg></button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p102"><img src="imagens/iPhone 14 Plus - 11.png" alt="">
+                        </div>
+                        <div class="p2">
+                            <h3>HOPYPAY</h3>
+                            <p>I rebuilt the web interface for the HoyPay landing page.
+                            </p>
+                            <a href="https://www.figma.com/file/RQB4971cJns7FoViGqRrLT/HOPYPAY?type=design&node-id=0%3A1&mode=design&t=U1Qyu6kMJglMnoF1-1"
+                                target="_blank"><button class="bnt1">View<svg class="link-icon-2"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-external-link">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <footer class="sec5">
+            <div class="icons2">
+                <a href="https://www.linkedin.com/in/gabriel-yanes-br013/" target="_blank" class="link-icons">
+                    <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://github.com/GabeYanes1217" target="_blank" class="link-icons">
+                    <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-github">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="mailto:gabriel.yanes1217@outlook.com" target="_blank" class="link-icons">
+                    <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-mail">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+            <div class="textofooter">
+                <h3>Gabriel Yanes</h3>
+                <p>"I'm a Systems for Internet student at Fatec."</p>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            },
+        });
+    </script>
+    <script src="script.js"></script>
+    <script src="darkLight.js"></script>
+</body>
+
+</html>
