@@ -13,7 +13,7 @@
     --text-h1: 2.5rem;
     --text-h1style: bold;
     /* Font size for H2 headings */
-    --text-h2: 2rem;
+    --text-h2: 1.8rem;
     --text-h2style: bold;
     /* Font size for H3 headings */
     --text-h3: 1.5rem;
@@ -151,6 +151,7 @@ span {
     align-items: center;
     text-align: center;
     height: 100vh;
+    gap: 1em;
 }
 
 #sec3 {
@@ -188,7 +189,7 @@ span {
 }
 
 .home {
-    width: 20rem;
+    width: 28rem;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -316,6 +317,7 @@ strong {
     width: 55rem;
 }
 
+.link-icon-2,
 .arrow-icon-skill3,
 /* Skill and link icons */
 .arrow-icon-skill2,
@@ -329,15 +331,25 @@ strong {
     /* Color for text in light mode */
     color: var(--text-color-lightm0de);
     /* Set width and height */
-    width: 30px;
-    height: 30px;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
-.link-icon-2 {
-    width: 30px;
-    height: 30px;
+.link-icon-3{
+    width: 2.2rem;
+    height: 2.2rem;
     color: white;
 }
+
+.link-icon-2{
+    border-radius: 50%;
+}
+
+.link-icon-2-ativa{
+    background-color: white;
+    border: 2px solid white;
+}
+
 
 .link-icon-ancora {
     display: inline-block;
@@ -424,7 +436,7 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     width: fit-content;
 }
@@ -452,7 +464,7 @@ strong {
 }
 
 footer {
-    background-color: #B2B377;
+    background-color: #F1F5A8;
     width: 100%;
     height: 6rem;
     display: flex;
@@ -511,10 +523,10 @@ footer {
     }
 
     .mobilemenu {
-        background-color: #B2B377;
+        background-color: #F1F5A8;
         display: none;
-        position: sticky;
-        top: 44px;
+        position: fixed;
+        top: 60px;
         z-index: 1;
         height: fit-content;
         width: 25vw;
@@ -535,6 +547,10 @@ footer {
         justify-content: center;
     }
 
+    .home p {
+        text-align: left;
+    }
+
     .icons {
         flex-direction: row;
     }
@@ -545,6 +561,10 @@ footer {
 
     .home {
         width: 70%;
+    }
+
+    .home h2{
+        display: none;
     }
 
     .texto-sobre-p {

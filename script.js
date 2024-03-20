@@ -73,6 +73,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             var mobileMenu = document.querySelector('.mobilemenu');
             mobileMenu.classList.toggle('mobilemenu-ativa');
+
+            var linkIcon2 = document.querySelector('.link-icon-2');
+            linkIcon2.classList.toggle('link-icon-2-ativa');
         });
     });
 });
